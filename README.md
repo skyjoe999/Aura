@@ -7,14 +7,33 @@ Phase 1
 	- Shall install and setup the SW tools 
 - Shall demonstrate basic understanding of Python coding 
 	- Create simple unit conversion program 
-		- loops until user chooses to quit 
 		- 3 unit conversions 
+			- C to F
+			- h to s
+			- m to ft
+			- make them reversable (C->F ≈ F->C)
+		- loops repeatedly until user chooses to quit
+			- quit by typing "quit" or "q"
+		- prompt the user for input 
 		- prototype flowchart 
 	- Need to create detailed requirements for your chosen program
 - Shall demonstrate basic understanding of Raspberry Pi I/O 
 	- Configure LED on breadboard 
+		- configure pins on the GPIO 
+			- pin #26 -> GND
 	- Blink LED 
+		- choose type of LED 
+		- blink forever
+		- blink every 2 seconds
+		- 220Ω resistor
 - Shall demonstrate basic understanding of Pygame 
 	- Add a random rectangle to the center of the game screen 
+		- decide on size, color, position 
+		- decide on randomizer component 
 	- Add random ball to the top-left corner of the game screen 
+		- decide on size, color, position 
+		- decide on randomizer component 
 	- Add text to the top-right of the game screen 
+		- decide on size, color, position, font, and text 
+	- Pygame window
+		- size and color
