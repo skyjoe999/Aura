@@ -19,7 +19,7 @@ Phase 1
 		- configure pins on the GPIO 
 			- pin #19 -> LED -> GND
 	- Blink LED 
-		- choose type of LED 
+		- green LED 
 		- blink forever
 		- blink every 1 second
 		- 220Ω resistor
