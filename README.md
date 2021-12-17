@@ -8,32 +8,33 @@ Phase 1
 - Shall demonstrate basic understanding of Python coding 
 	- Create simple unit conversion program 
 		- 3 unit conversions 
-			- C to F
 			- h to s
+			- C to F
 			- m to ft
 			- make them reversable (C->F ≈ F->C)
-		- loops repeatedly until user chooses to quit
-			- quit by typing "quit" or "q"
 		- prompt the user for input 
-		- prototype flowchart 
 	- Need to create detailed requirements for your chosen program
 - Shall demonstrate basic understanding of Raspberry Pi I/O 
 	- Configure LED on breadboard 
 		- configure pins on the GPIO 
-			- pin #26 -> GND
+			- pin #19 -> LED -> GND
 	- Blink LED 
 		- choose type of LED 
 		- blink forever
-		- blink every 2 seconds
+		- blink every 1 second
 		- 220Ω resistor
 - Shall demonstrate basic understanding of Pygame 
-	- Add a random rectangle to the center of the game screen 
-		- decide on size, color, position 
-		- decide on randomizer component 
-	- Add random ball to the top-left corner of the game screen 
-		- decide on size, color, position 
-		- decide on randomizer component 
-	- Add text to the top-right of the game screen 
-		- decide on size, color, position, font, and text 
 	- Pygame window
-		- size and color
+		- size: 600x480
+		- background: black
+	- Add a random rectangle to the center of the game screen 
+		- randomized size and position
+		- color: white
+	- Add random ball to the top-left corner of the game screen 
+		- randomized radius and position
+		- color: blue
+	- Add text to the top-right of the game screen 
+		- size: 72pt font
+		- text: "Snowman"
+		- position: top left
+		- color: white
